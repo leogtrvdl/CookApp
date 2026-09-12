@@ -121,6 +121,15 @@ func main() {
 		r.Get("/friends/requests", friendshipHandler.GetPendingFriendRequests)
 	})
 
+	r.Get("/admin/fix-images", func(w http.ResponseWriter, r *http.Request) {
+    _, err := db.Exec("UPDATE recipes SET image_path = 'https://pub-c99b03c3b3594edf8d525f1ea103ef88.r2.dev/default-recipe.svg' WHERE image_path = '' OR image_path IS NULL")
+    if err != nil {
+        w.Write([]byte("Erreur: " + err.Error()))
+        return
+    }
+    w.Write([]byte("OK"))
+})
+
 	fmt.Println("Serveur démarré sur http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
