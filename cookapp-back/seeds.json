@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Pâtes au beurre",
+    "image_path": "",
+    "ingredients": [
+      {"name": "pâtes", "quantity": "500", "unit": "g"},
+      {"name": "beurre", "quantity": "30", "unit": "g"},
+      {"name": "sel", "quantity": "1", "unit": "pincée"}
+    ],
+    "steps": [
+      {"order": 1, "description": "Porter une grande casserole d'eau salée à ébullition."},
+      {"order": 2, "description": "Cuire les pâtes selon les instructions du paquet."},
+      {"order": 3, "description": "Égoutter les pâtes et les mélanger avec le beurre."}
+    ]
+  },
+  {
+    "title": "Riz blanc",
+    "image_path": "",
+    "ingredients": [
+      {"name": "riz", "quantity": "300", "unit": "g"},
+      {"name": "eau", "quantity": "600", "unit": "ml"},
+      {"name": "sel", "quantity": "1", "unit": "pincée"}
+    ],
+    "steps": [
+      {"order": 1, "description": "Rincer le riz à l'eau froide."},
+      {"order": 2, "description": "Porter l'eau salée à ébullition et ajouter le riz."},
+      {"order": 3, "description": "Cuire à feu doux 15 minutes à couvert puis servir."}
+    ]
+  },
+  {
+    "title": "Omelette nature",
+    "image_path": "",
+    "ingredients": [
+      {"name": "oeufs", "quantity": "3", "unit": ""},
+      {"name": "beurre", "quantity": "10", "unit": "g"},
+      {"name": "sel", "quantity": "1", "unit": "pincée"},
+      {"name": "poivre", "quantity": "1", "unit": "pincée"}
+    ],
+    "steps": [
+      {"order": 1, "description": "Battre les oeufs avec le sel et le poivre."},
+      {"order": 2, "description": "Faire fondre le beurre dans une poêle à feu moyen."},
+      {"order": 3, "description": "Verser les oeufs et cuire en remuant jusqu'à la consistance désirée."}
+    ]
+  }
+]
