@@ -1,7 +1,7 @@
 [
   {
     "title": "Pâtes au beurre",
-    "image_path": "",
+    "image_path": "https://pub-c99b03c3b3594edf8d525f1ea103ef88.r2.dev/default-recipe.svg",
     "ingredients": [
       {"name": "pâtes", "quantity": "500", "unit": "g"},
       {"name": "beurre", "quantity": "30", "unit": "g"},
@@ -15,7 +15,7 @@
   },
   {
     "title": "Riz blanc",
-    "image_path": "",
+    "image_path": "https://pub-c99b03c3b3594edf8d525f1ea103ef88.r2.dev/default-recipe.svg",
     "ingredients": [
       {"name": "riz", "quantity": "300", "unit": "g"},
       {"name": "eau", "quantity": "600", "unit": "ml"},
@@ -29,7 +29,7 @@
   },
   {
     "title": "Omelette nature",
-    "image_path": "",
+    "image_path": "https://pub-c99b03c3b3594edf8d525f1ea103ef88.r2.dev/default-recipe.svg",
     "ingredients": [
       {"name": "oeufs", "quantity": "3", "unit": ""},
       {"name": "beurre", "quantity": "10", "unit": "g"},
